@@ -14,6 +14,7 @@ import {
 } from './shared';
 import { CoreModule } from './core';
 import { HttpClientModule } from '@angular/common/http';
+import { HomeModule } from './home/home.module';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { HttpClientModule } from '@angular/common/http';
     AppMaterialModule,
     AppRoutingModule,
     SharedModule,
-    CoreModule
+    CoreModule,
+    HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
