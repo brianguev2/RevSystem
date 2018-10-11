@@ -1,3 +1,11 @@
-<mat-toolbar color="primary">
+<div class="header-container">
+<mat-toolbar color="primary" fxLayoutGap="8px">
+  <a mat-icon-button>
+    <mat-icon svgIcon="fuel"></mat-icon><span class="mat-h2">RevSystem</span>
+  </a>
+  <span class="flex-spacer"></span>
+  <button routerLink="/user/profile" mat-button>Profile</button>
+  <button routerLink="/user/login" mat-button>Login</button>
 
 </mat-toolbar>
+</div>

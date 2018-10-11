@@ -13,6 +13,7 @@ import {
   SharedModule
 } from './shared';
 import { CoreModule } from './core';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { CoreModule } from './core';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     FlexLayoutModule,
     AppMaterialModule,
     AppRoutingModule,
